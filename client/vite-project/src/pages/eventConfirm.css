@@ -1,0 +1,93 @@
+.heshani-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative; /* Add this line */
+    
+  }
+  .heshani-confirm21 {
+    background-color: rgba(196, 209, 233, 0.8);
+    padding: 20px;
+    width: 800px; /* Increase the width as needed */
+    border-radius: 8px;
+    max-width: 100%; /* Make sure it's responsive */
+    text-align: center;
+    margin: 0 auto; /* Horizontally center */
+    position: absolute;
+    top: 50%; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translate(-50%, -50%); /* Correctly center it */
+    z-index: 1;
+  }
+  
+  .heshani-heading {
+    font-size: 36px;
+    color: #050e0d;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 23px;
+    margin: 10px 0;
+  }
+ 
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .heshanibtn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary21 {
+    background-color: #007bff;
+    color: #0b0a0a;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .heshani-image21 {
+    background-image: url('../images/confirm.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+   background-repeat: no-repeat;
+    display: cover;
+    align-items: cover;
+    justify-content: cover; /* To center horizontally */
+    
+    opacity: 1.1; 
+  }
+  .background-heshani21 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .heshani-border21 {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #a0b1cf;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+ 

@@ -1,0 +1,102 @@
+/* OurStallsHomePage.css */
+
+body {
+    background-image: url('/stallImages/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.wrapper {
+    
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0px; 
+    margin: 20px;
+  }
+
+  .container-flex {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+  }
+  .transparent-container {
+    padding: 280px;
+    width: 180vw; /* Use 100vw for full viewport width */  
+    position: cover;  
+    background-image: url('/stallImages/Green and White Dots Photography Daily Tips Cooking Healthy Food YouTube Thumbnail.png'); /* Replace 'path/to/your/wallpaper-image.jpg' with the actual path to your image */
+    background-size: flex; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center center;
+    height: 850%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+  
+.search-bar {
+  margin-left: 1px; /* Move the search bar to the right */
+  padding: 20px; /* You can adjust this as needed */
+  width: 50%; /* Adjust the width as needed to fit your design */
+}
+
+.search-bar input[type="text"] {
+  
+  border-radius: 10px;
+  padding: 20px;
+  /* You can adjust other styles like width here too if needed */
+}
+  
+  /* Available Food Stalls Section styles */
+  .stalls-section h3 {
+    margin-left: 1px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    height: 95%;
+    
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  /* OurStallsHomePage.css */
+
+
+  

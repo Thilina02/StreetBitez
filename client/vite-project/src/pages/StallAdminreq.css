@@ -1,0 +1,36 @@
+.stall-admin-req-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stall-admin-req-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+} 
+
+.stall-admin-req-item {
+  flex: 0 1 calc(30% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stall-info {
+  margin-bottom: 20px;
+}
+
+.stall-actions button {
+  margin: 5px;
+}
+
+/* StallAdminreq.css or your stylesheet */
+.custom-toast {
+  background-color: #f9f0f0; /* Replace with your desired background color */
+  color: #080808; /* Set the text color as needed */
+}

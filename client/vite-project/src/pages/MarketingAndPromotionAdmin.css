@@ -1,0 +1,38 @@
+/* MarketingAndPromotionAdmin.css */
+
+/* Styling for the promotion cards */
+.promotion-card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for promotion images */
+  .promotion-image img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+  }
+  
+  /* Styling for promotion text */
+  .promotion-text {
+    flex-grow: 1;
+  }
+  
+  /* Styling for the create promotion button */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,34 @@
+.employeecontainer {
+  background-color: #fff; /* Background color for the container */
+  border: 1px solid #e0e0e0; /* Border for the container */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the container */
+  margin-bottom: 20px; /* Margin between containers */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+  height: 500px;
+}
+
+.employeecontainer h1.item-list-title {
+  font-size: 24px; /* Font size for section titles */
+  margin-top: 0; /* Remove top margin for titles */
+}
+
+/* Add additional styles as needed for specific elements inside the container */
+
+.fullcontainer{
+  padding-top: 20px;
+}
+
+.dashcontainer {
+  background-image: url('../images/employeed.png');
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  background-size: cover; /* Set the background image to cover the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+

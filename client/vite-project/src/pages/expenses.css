@@ -1,0 +1,41 @@
+.backgr{
+    width: 150vh;
+}
+.expenseHead{
+    margin-top: 5vh;
+    margin-left: 30vh;
+}
+
+  
+  .inputs{
+    margin-top: 20vh;
+    margin-left: 5vh;
+  }
+  
+  .inputTypes{
+    width: 40vh;
+  }
+
+  .IncHead{
+    margin-top: 10vh;
+  }
+  .invExpenses{
+    width: 100vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
+  }
+  .externalBtn{
+    margin-left: -35vh;
+  
+  }
+  .incomeUpdate{
+    margin-left: 4vh;
+    width: 10vh;
+  }
+  .ExternalExpenses{
+    width: 100vh;
+    margin-left: 6vh;
+  }
+  .expensssbutt{
+    margin-left: 30vh;
+  }

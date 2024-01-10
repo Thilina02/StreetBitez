@@ -1,0 +1,77 @@
+/* SeeMenuPage.css */
+
+.menu-page {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-image: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  
+  }
+  
+  .page-header {
+    font-size: 5rem;
+    color: #333; /* Header text color */
+    position: relative; /* Add relative positioning */
+    z-index: 10;
+    margin-bottom: 50px;
+  }
+
+    
+  .menu-cards-container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px; /* Gap between menu cards */
+  }
+  
+  .menu-card {
+    background-color: #f9f9f9; /* Background color of each card */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Adjust card width as needed */
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.80); /* Enlarge the card on hover */
+  }
+  
+  .stall-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333; /* Stall name text color */
+  }
+  
+  .menu-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: 1px solid #ccc; /* Add a border to the menu image */
+    border-radius: 4px;
+  }
+
+  .menu-card-footer {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .download-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  

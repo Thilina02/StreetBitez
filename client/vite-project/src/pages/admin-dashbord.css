@@ -1,0 +1,88 @@
+.black-box {
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; /* Add some padding for spacing */
+  }
+  
+  .vertical-text {
+    color: white;
+    writing-mode: horizontal-tb; /* Vertical writing mode */
+    transform: rotate(0deg); /* Rotate the text */
+    white-space: nowrap;
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 5px; /* Add some margin for spacing */
+  }
+
+  .total-users-box {
+    background-color: #b3b3b3; /* Background color for the total users box */
+    color: #000000; /* Text color for the total users text */
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 20px; /* Adjust margin-top as needed */
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Style for loading text (optional) */
+  .total-users-box.loading-text {
+    font-style: italic;
+    color: #aeaeae; /* Text color for loading text */
+  }
+  /* admin-dashbord.css */
+
+/* Styling for the dropdown button */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.dropdown-toggle {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Styling for the dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 0;
+  z-index: 1;
+}
+
+/* Show the dropdown menu when the dropdown is open */
+.dropdown.show .dropdown-menu {
+  display: block;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+

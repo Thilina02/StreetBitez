@@ -1,0 +1,61 @@
+/* StallAdminreq.css (or any other preferred name) */
+
+/* Container for the table */
+.stall-admin-req-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style for the table */
+  .stall-admin-req-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for table headers */
+  .stall-admin-req-table th {
+    background-color: #080808;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  /* Style for table rows */
+  .stall-admin-req-table tr {
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for table cells (columns) */
+  .stall-admin-req-table td {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  /* Style for the "Paid" button */
+  .paid-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for "Paid" button */
+  .paid-button:hover {
+    background-color: blue;
+  }
+
+  .generate-report-button {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width:10%; 
+    background-color: blue;
+  }
+  
+  

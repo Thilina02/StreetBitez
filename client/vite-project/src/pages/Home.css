@@ -1,0 +1,184 @@
+.home-containerz {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px; /* Add vertical space */
+}
+.bghome-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background-image: url('../images/stf.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1.1; 
+}
+
+.frame-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.frame {
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-right: 40px; /* Add horizontal spacing between boxes */
+  transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.frame:hover {
+  transform: scale(1.05); /* Scale the box on hover */
+}
+
+.frame:last-child {
+  margin-right: 0; /* Remove spacing for the last box */
+}
+
+.frame img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.frame p {
+  font-size: 16px;
+}
+
+.slideshow-container {
+  margin-top: 40px;
+}
+
+.slick-slider {
+  position: relative;
+}
+
+.slick-slider .slick-slide {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.slick-slider .slick-slide.slick-active {
+  opacity: 1;
+}
+
+
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.additional-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; /* Add spacing between the slider and additional boxes */
+}
+
+.big-box {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  width: 80%; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.big-box h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.big-box p {
+  font-size: 18px;
+}
+
+.additional-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; /* Add spacing between the slider and additional boxes */
+}
+
+.big-box {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  width: 80%; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.big-box h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.big-box p {
+  font-size: 18px;
+}
+
+.additional-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Add spacing between the slider and additional boxes */
+  position: relative; /* Add this to position .big-box relative to .additional-boxes */
+}
+
+.box {
+  width: 48%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .additional-container {
+    align-items: flex-start;
+  }
+  
+  .additional-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+h1 {
+  font-family: "Papyrus", sans-serif;
+}
+
+.button {
+  background-color: #BF3853;
+}
+

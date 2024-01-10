@@ -1,0 +1,155 @@
+/* FrontPage.css */
+.front-page-heshani7 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* CSS */
+.choose-heshani-heading7 {
+  text-align: center; /* Center-align the text */
+  position: relative; /* Create a relative positioning context */
+}
+
+.choose-heshani-heading h1 {
+  display: inline-block; /* Make the heading an inline-block element */
+  position: relative; /* Create a positioning context for ::after pseudo-element */
+  padding-bottom: 10px; /* Space between the text and the lines */
+}
+
+.choose-heshani-heading h1::after {
+  content: "";
+  position: absolute; /* Position the lines absolutely */
+  bottom: 0;
+  left: 50%; /* Center the lines under the text */
+  transform: translateX(-50%); /* Center the lines under the text */
+  width: 50px; /* Adjust the width of the lines */
+  height: 2px; /* Adjust the height and thickness of the lines */
+  background-color: #000; /* Line color */
+ 
+}
+
+.choose-heshani-heading h1::before {
+  content: "";
+  position: absolute; /* Position the lines absolutely */
+  bottom: 0;
+  left: 50%; /* Center the lines under the text */
+  transform: translateX(-50%); /* Center the lines under the text */
+  width: 50px; /* Adjust the width of the lines */
+  height: 2px; /* Adjust the height and thickness of the lines */
+  background-color: #000; /* Line color */
+  content: ""; /* Clear the default content */
+}
+
+
+.success-heshani7 {
+  background-color: #aac6ea;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.heshani-selection-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #cddaf0;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.event-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.heshani-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr); /* Two columns */
+  gap: 10px; /* Gap between grid items */
+}
+
+.heshani-card {
+  background-color: #9cb9ca;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heshani-card img {
+  max-width: 50%;
+}
+
+.emphasis-text {
+  font-weight: bold;
+  color: #3e2424;
+  font-style: oblique;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.App {
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.button-container {
+  text-align: center;
+  
+}
+
+.btn {
+  background-color: #4800ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color: #2400b3;
+}
+.App{
+  
+  color: rgb(22, 21, 21); /* Choose the text color that works well with the highlight color */
+  padding: 10px; /* Adjust the padding as needed */
+  
+}
+.heshani-image7 {
+  background-image: url('../images/eventback2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+ background-repeat: no-repeat;
+  display: cover;
+  align-items: cover;
+  justify-content: cover; /* To center horizontally */
+  
+  opacity: 1.1; 
+}
+.background-heshani7 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}

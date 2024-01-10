@@ -1,0 +1,90 @@
+/* CSS for Driver Login Form */
+.driver-login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    margin: 0;
+    
+    
+
+  }
+  
+  .Driver-bg-img{
+    background-image: url('../images/driver8.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 300px;
+    background-size: 80%;
+    width: 100vh;
+    height: 100vh;
+    position: fixed;
+    
+  }
+  
+  .contentL {
+    background: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+    
+  }
+  
+  .hh {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .Driver-form-group {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+
+  /*.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+  }*/
+  
+  .driverBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .driverBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .Driver-register-link {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .Driver-register-link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .Driver-register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .login-form-container {
+      align-items: flex-start;
+    }
+  }
+  

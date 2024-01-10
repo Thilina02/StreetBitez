@@ -1,0 +1,53 @@
+.backgrs{
+  width: 50vh;
+}
+.incomeHead{
+  width: auto;
+ 
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttas{
+  margin-top: auto;
+}
+.inputs{
+  margin-top: 20vh;
+  margin-left: 5vh;
+}
+
+.inputTypes{
+  width: 40vh;
+}
+.AllIncomeTables{
+  margin-left: -24vh;
+}
+.IncHead{
+  margin-top: 10vh;
+  margin-left: 20vh;
+}
+.totalIncome{
+  width: 120vh;
+  margin-top: 15vh;
+  margin-left: 30vh;
+}
+.externalBtn{
+  margin-left: -56vh;
+
+}
+.incomeUpdate{
+  margin-left: 4vh;
+  width: 10vh;
+}
+.salesHead{
+  margin-top: 10vh;
+  margin-left: 30vh;
+}
+.dnnenah{
+  width: 100vh;
+  margin-left: 20vh;
+}
+.buttonstoSelect{
+  width: 100vh;
+  margin-left: 20vh;
+}

@@ -1,0 +1,71 @@
+/* Add these styles to a CSS file (e.g., GetProduct.css) */
+.container {
+    margin: 0 auto;
+    width: 1500px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-success {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-danger {
+    background-color: #D9534F;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #45A049;
+  }
+  
+  .btn-danger:hover {
+    background-color: #C9302C;
+  }
+  

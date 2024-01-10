@@ -1,0 +1,44 @@
+/* driver-profile.css */
+
+  
+
+.driver-profile-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  box-shadow: #ccc;
+}
+
+/* Style for primary (Update Profile) button */
+.btn.btn-primary {
+  background-color: #000000; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+
+/* Style for danger (Delete Profile) button */
+.btn.btn-danger {
+  background-color: #e6081e; /* Change the background color to your preference */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+
+/* Add hover styles for the buttons (change color on hover, for example) */
+.btn.btn-primary:hover{
+  background-color: #838181; /* Change the background color on hover */
+}
+
+.btn.btn-danger:hover {
+  background-color: #7e2020; /* Change the background color on hover */
+
+}
+
+  

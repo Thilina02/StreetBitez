@@ -1,0 +1,47 @@
+/* driverDashboard.css */
+
+/* Container styles */
+.driver-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Background image styles */
+.driver-bgh-image {
+  /* Add your background image styles here */
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('../images/driver2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Content styles */
+.driver-content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Button styles */
+buttonD {
+  background-color: #053161; /* Change the color as needed */
+  color: #0c0404;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #89a8ca; /* Change the hover color as needed */
+}
+
+/* Add more styles as needed for other elements in your component */

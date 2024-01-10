@@ -1,0 +1,118 @@
+/* Center the logo and page title */
+.card-img {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+}
+
+/* Style the page title */
+.card-title {
+  text-align: center;
+  font-size: 28px; /* Increase the font size */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Style the stall description */
+.card-text {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style the star rating */
+.card-text .rs-star {
+  color: #FFD700; /* Gold color for stars */
+}
+
+/* Style the categories section */
+h5 {
+  font-size: 24px; /* Increase the font size */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+ul.category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Align categories in the center */
+  margin-bottom: 20px; /* Add margin to separate categories from search bar */
+}
+
+ul.category-list li {
+  cursor: pointer;
+  margin: 5px; /* Add some spacing between categories */
+  font-size: 20px; /* Increase the font size */
+  padding: 5px 15px; /* Add padding to categories */
+  border: 1px solid #ccc; /* Add a border to each category */
+  border-radius: 5px; /* Round the corners of categories */
+}
+
+.active-category {
+  color: #f44336; /* Change color for the active category */
+  font-weight: bold;
+}
+
+/* Style the search input */
+.form-control {
+  font-size: 18px;
+  border: 2px solid #ccc; /* Add a border */
+  border-radius: 5px;
+}
+
+/* Style the food item cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  margin: 10px; /* Add spacing between cards */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Add a hover effect to enlarge cards */
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-footer {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background-color: #3b4ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #bcb9b9;
+}
+
+/* Adjust spacing and margins */
+.mt-5 {
+  margin-top: 1.5rem; /* Increase top margin for better spacing */
+  margin-bottom: 1.5rem; /* Add bottom margin for better spacing */
+}

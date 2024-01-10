@@ -1,0 +1,43 @@
+.stall-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .stall {
+    flex: 0 1 calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .stall.request-list {
+    background-color: #f0f0f0;
+  }
+  
+  .stall.created.stall-list {
+    background-color: #e0e0e0;
+  }
+  
+  .stall.marketing-list {
+    background-color: #d0d0d0;
+  }
+  
+  .stall h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .stall a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  .stall a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

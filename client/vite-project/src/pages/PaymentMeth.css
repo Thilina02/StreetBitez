@@ -1,0 +1,53 @@
+/* PaymentMeth.css */
+
+.depoAndUp{
+    background-color: aliceblue;
+    width:  100vh;
+    height: 30vh;
+    margin-top: 10vh;
+    margin-left: -10vh;
+    font-family: "Raleway", Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+   
+}
+
+.depobttn1{
+    
+   margin-top: -1vh;
+   margin-left: 40vh;
+   
+}
+.cashbttn2{
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.cashOndeli{
+    background-color: aliceblue;
+    width:  100vh;
+    height: 30vh;
+   
+    margin-left: -10vh;
+   margin-top: 10vh;
+   font-family: "Raleway", Arial, sans-serif;
+   border-radius: 10px;
+   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+}
+.methodImg{
+    margin-top: 15vh;
+    height: 50vh;
+    margin-left: 2vh;
+    margin-right: -10vh;
+    width: 50vh;
+    
+}
+
+.phead{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-size: 10vh;
+    font-style: italic;
+    margin-left: -7vh;
+}

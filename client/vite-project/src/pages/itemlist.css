@@ -1,0 +1,78 @@
+/* itemlist.css */
+.dihan-title{
+  display: flex;
+  flex-direction: column;
+}
+
+.dihan-container{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    color: #181616;
+}
+
+/* Center the container vertically and horizontally */
+.dihan-item-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style the buttons on the right */
+.dihan-item-list-buttons {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+/* Style the search and add new buttons */
+.dihan-search-button,
+.dihan-add-new-button,
+.dihan-view-button,
+.dihan-report-button 
+{
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+.dihan-Edit-button
+{
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: green; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+.dihan-Delete-button
+{
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: red; /* Change the background color as needed */
+  color: #fff; /* Change the text color as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Hover effect for buttons */
+.dihan-search-button:hover,
+.dihan-add-new-button:hover,
+.dihan-view-button:hover,
+.dihan-Edit-button:hover 
+{
+  background-color: #0056b3; /* Change the hover background color as needed */
+}

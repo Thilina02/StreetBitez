@@ -1,0 +1,29 @@
+.contoo{
+    justify-content: center;
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 15vh;
+
+
+}
+.delivermanImg{
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: auto;
+    width: 150vh;
+  
+ 
+}
+.heaad1{
+    color: "#000000";
+    margin: auto;
+   
+}
+.buttoo{
+    margin-left: 3vh;
+    margin-top: 5vh;
+    justify-content: center;
+   
+}

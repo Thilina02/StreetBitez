@@ -1,0 +1,63 @@
+/* Style for the main container */
+.cpmOrd-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #cec6c6 ;
+  }
+  
+  /* Style for the header */
+  .cpmOrd-container header {
+    background-color: #413030;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style for the header text */
+  .cpmOrd-container header h1 {
+    margin: 0;
+  }
+  
+  /* Style for the search bar */
+.driver-search-bar {
+    margin: 20px 0; /* Add margin for spacing */
+  }
+  
+  .driver-search-bar input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the card wrapper */
+  .cpmOrd-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between cards */
+    margin-top: 20px;
+  }
+  
+  /* Style for individual cards */
+  .cpmOrd-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Adjust the card width as needed */
+    text-align: left;
+  }
+  
+  /* Style for card content */
+  .cpmOrd-card__content {
+    margin-top: 10px;
+  }
+  
+  /* Style for card content paragraphs */
+  .cpmOrd-card__content p {
+    margin: 0;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,118 @@
+/* SweetSerenity.css */
+
+/* Style for the container */
+.Container {
+    padding: 40px;
+    background-image: url('/stallImages/bg.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%; /* You can adjust the height as needed */
+    width: 100%; 
+  }
+  
+  /* Style for the stall logo */
+  .stall-logo-cover {
+  background-image: url('/stallImages/Grey Brown Beige Minimalist Photo Collage Business Facebook Cover.png'); /* Replace with your logo path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 100%; 
+  }
+  
+  /* Style for the categories list */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 5px 0;
+  }
+  
+  /* Style for the active category */
+  .active-category {
+    color: #007bff; /* Change to your desired active category color */
+    font-weight: bold;
+  }
+  
+  /* Style for the search input */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the food item card */
+  .Card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .Card:hover {
+    transform: scale(1.05); /* Add a hover effect to cards */
+  }
+  
+  .Card.Title {
+    font-weight: bold;
+  }
+  
+  /* Style for the rating stars */
+  .RatingStars {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  /* SweetSerenity.css */
+
+/* Style for the custom item cards */
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Add a hover effect to cards */
+  }
+  
+  .custom-card img {
+    max-height: 200px; /* Set the maximum image height */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+  }
+  
+  .custom-card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .custom-card .card-footer {
+    background-color: #d1d5d8; /* Background color for the card footer */
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .custom-card button {
+    background-color: #5e9adf; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .custom-card button:hover {
+    background-color: #0056b3; /* Change to the hover button color */
+  }
+  
+  
+  
+  

@@ -1,0 +1,68 @@
+.heed{
+    
+  margin-top: -50vh;
+  justify-content: center;
+  margin-left: 5vh;
+  width: auto;
+}
+.btn1{
+margin-right: 10vh;
+
+}
+.btn2{
+margin-left: 10vh;
+
+}
+.text-left{
+
+flex-direction: column;
+margin-top: 25vh;
+margin-left: -25vh;
+
+}
+.bgh-img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 150vh; /* Set the container height to the viewport height for vertical centering */
+  margin-top: 5vh;
+  width: 160vh;
+ 
+  background-color: rgb(132, 138, 138);
+}
+.stallComp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  /* Set the container height to the viewport height for vertical centering */
+  margin-top: 40vh;
+  margin-right: 14vh;
+  width: 50vh;
+ 
+
+}
+.invoice-numbb{
+
+margin-top: 15vh;
+margin-right: -72vh;
+align-items: left;
+}
+.companyDett{
+text-align: left;
+margin-right: 43vh;
+margin-bottom: 10vh;
+position: relative;
+width: max-content;
+}
+p{
+justify-content: center;
+margin-top: 5vh;
+align-items: center;
+
+}
+.tabe{
+width: 100vh;
+margin-left: 6vh;
+}

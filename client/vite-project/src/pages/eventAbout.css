@@ -1,0 +1,89 @@
+.event-heshani-container22 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.background-image-heshani22 {
+  background-image: url('../images/chooseus.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+   background-repeat: no-repeat;
+    display: cover;
+    align-items: cover;
+    justify-content: cover; /* To center horizontally */
+    
+    opacity: 1.1; 
+}
+
+.heshani-image22 {
+  width: 100%;
+}
+
+.card-container22 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  background-color: #e3cece;
+  padding: 20px;
+}
+
+.heshanicard22 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.heshani-icon22 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #f8f8f8;
+  margin: 30px 0;
+}
+
+.heshanifooter22 {
+  background-color: #c1bdcd;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+.contact-section22 {
+  flex: 1;
+}
+
+.social-section22 {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+.heshanibtn {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 5px 10px; /* Adjust the padding to make it smaller */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px; /* Increase the font size */
+  display: block; /* Make the button a block-level element */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+.heshanibtn:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}

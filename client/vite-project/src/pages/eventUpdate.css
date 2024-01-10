@@ -1,0 +1,79 @@
+/* Center the form container */
+.Heshanicontainer91 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 500px;
+    text-align: center; /* Center text within the container */
+    position: absolute; /* Center vertically and horizontally */
+    top: 50%; /* Move the container down by half of its height */
+    left: 50%; /* Move the container to the right by half of its width */
+    transform: translate(-50%, -50%); /* Center the container */
+    z-index: 1; /* Add this line to bring it to the front */
+    font-size: 14px; /* Adjust the font size to make it smaller */
+  }
+  
+    
+    form {
+      display: center;
+      flex-direction: column;
+      align-items: center; /* Center the form contents horizontally */
+      text-align: left; /* Center the form contents text */
+    }
+    
+    .form-heshani {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Center the background image */
+    .Heshani2 {
+      background-image: url('../images/eventform1.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+     background-repeat: no-repeat;
+      display: cover;
+      align-items: cover;
+      justify-content: cover; /* To center horizontally */
+      
+      opacity: 1.1; 
+    }
+    
+  .Heshani-image91 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  

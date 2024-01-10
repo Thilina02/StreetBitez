@@ -1,0 +1,105 @@
+/* Apply these styles in your customerDetails.css file */
+tablefu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  table td, table th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  table thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table th {
+    background-color: #434343;
+    color: #fff;
+  }
+  
+  /* Adjust styles as needed for your design */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .loading-message {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Styles for edit and delete buttons */
+  .edit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-right: 5px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+.search-containerff {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px; 
+}
+
+  
+  .search-container input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .search-container button {
+    background-color: #9b9b9b;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  }
+  
+  .print-buttonhuu {
+    background-color: rgba(1, 6, 101, 0.808); /* Change the button color to red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: fixed;
+    bottom: 20px; /* Position at the bottom */
+    left: 20px; /* Position at the left */
+  }
+  

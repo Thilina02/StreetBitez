@@ -1,0 +1,61 @@
+.head2{
+   
+    margin-left: 30vh;
+    width: 50vh;
+    margin-top: 10vh;
+    display: fixed;
+
+}
+.subDiv1{
+    margin-top: 10vh;
+    margin-left: -25vh;
+    background-color: rgb(167, 167, 160);
+    height: 60vh;
+    border: 3px solid #f0eeee;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adjust shadow values as needed */
+    transform: perspective(1000px) rotateX(9deg); /* Adjust rotation angle as needed */
+    transition: transform 0.5s ease-in-out; /* Add smooth transition effect */
+   
+    width: 40vh;
+}
+.subDiv1:hover {
+    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+  }
+
+.subDiv2{
+    margin-top: 10vh;
+    margin-left: 35vh;
+    background-color: rgb(167, 167, 160);
+    height: 60vh;
+    border: 3px solid #f0eeee;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adjust shadow values as needed */
+    transform: perspective(1000px) rotateX(9deg); /* Adjust rotation angle as needed */
+    transition: transform 0.5s ease-in-out; /* Add smooth transition effect */
+    width: 40vh;
+   
+}
+.subDiv2:hover {
+    transform: perspective(1000px) rotateX(0deg); /* Reset rotation on hover */
+  }
+.monthlySales{
+    justify-content: center;
+    margin-left: -30vh;
+    width: 50vh;
+    margin-top: 10vh;
+}
+.incomebutt{
+    margin-top: 5vh;
+    
+    
+}
+.expensesbutt{
+    margin-top: 5vh;
+    margin-left: 42vh;
+
+}
+.div11{
+    background-color: rgb(85, 88, 88);
+}
+.divv22{
+    background-color:   rgb(85, 88, 88);
+}

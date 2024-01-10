@@ -1,0 +1,21 @@
+.messg{
+    margin-left: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: bisque;
+    width: 40vh;
+    height: 50vh;
+    font-family: "Raleway", Arial, sans-serif;
+    border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  cursor: pointer;
+}
+.messg:hover{
+    height: 60vh;
+
+}
+.butbtn1{
+    margin-top: 6vh;
+}

@@ -1,0 +1,104 @@
+/* EventList.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-list-title1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .event-list-buttons1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .search-button1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .add-new-button {
+    background-color: #2c990e;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 10%;
+  }
+  
+  .event-list-table1 {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .event-list-table1 th,
+  .event-list-table1 td {
+    border: 1px solid #c6b5b5;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .event-list-table1 th {
+    background-color: #040507;
+    font-weight: bold;
+  }
+  
+  .Edit-button {
+    background-color: #078544;
+    color: #e6ebf0;
+    border: none;
+    padding: 6px 35px;
+    cursor: pointer;
+    width:90%;
+  }
+  
+  .Delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 35px;
+    cursor: pointer;
+    width: 90%;
+  }
+  .heshani-image20 {
+    background-image: url('../images/eventback2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+   background-repeat: no-repeat;
+    display: cover;
+    align-items: cover;
+    justify-content: cover; /* To center horizontally */
+    
+    opacity: 1.1; 
+  }
+  .background-heshani20 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

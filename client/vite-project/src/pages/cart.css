@@ -1,0 +1,165 @@
+.mycart{
+
+    font-size: 40px !important;
+    margin-top: 50px;
+    margin-bottom: px;
+    background:white;
+   
+   
+
+  }
+
+  .addToCart{
+
+    margin-left: 0px;
+    display: inline-flex;
+}
+.quantity-control{
+
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: inline-flex;
+
+}
+
+.quantity{
+
+  padding: 10px;
+}
+
+.nav1{
+
+    margin-left: 1800px;
+    display: inline-flex;
+}
+
+.cart{
+
+    padding: 10px;
+    color: white;
+}
+
+.logout{
+    color: white;
+}
+
+
+.flex-container{
+  display: flex !important;
+}
+
+.fa-plus{
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus{
+  color: red;
+  margin: 5px;
+}
+
+.fa-trash{
+  color: red;
+  margin-left: 40px;
+   
+}
+
+.col-md-2{
+  
+ 
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 305%;
+  width: max-content;
+
+ 
+  
+}
+
+h1{
+  font-size: 25px ;
+}
+
+.continue{
+
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.payment{
+
+  margin-top: 20%;
+  margin-left: 40%;
+}
+
+.logout{
+  margin-right: 20px;
+}
+
+.logout{
+
+  margin-top: 8px;
+}
+
+.text-left 
+{
+      text-align: left;
+}
+
+
+
+.subtotal{
+
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 6px;
+ 
+}
+
+
+
+.subT{
+
+  display: inline-flex
+}
+
+.payment{
+
+  
+  background-color: white;
+  width: 200px;
+}
+
+.cancle{
+
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.cartTotal {
+  position: fixed;
+  top: 20px;
+  right: 900px;
+  width: 200px; 
+ 
+}
+
+
+.cartitem{
+
+  margin-top: 250px;
+}
+
+
+
+
+

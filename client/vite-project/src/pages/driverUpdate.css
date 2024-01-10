@@ -1,0 +1,61 @@
+/* update-driver-profile.css */
+
+/* Style for the container that holds the form */
+.driver-update-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Background color for the entire container */
+  }
+  
+  /* Style for the form content */
+  .driver-content {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the form title */
+  .driver-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for input and select elements */
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  buttonU {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  buttonU:hover {
+    background-color: #0056b3;
+  }
+  

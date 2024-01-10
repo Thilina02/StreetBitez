@@ -1,0 +1,9 @@
+/* driverLogin.css */
+.bg-image {
+    background-image: url('../images/driver12.jpg'); /* Replace 'your-image-url.jpg' with the actual image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+  

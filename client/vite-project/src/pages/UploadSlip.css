@@ -1,0 +1,39 @@
+/* UploadSlip.css */
+
+/* Center the divvv1 content line by line */
+.divvv1 {
+   
+  align-items: flex-end;
+  justify-content: end;
+  text-align: start;
+  margin-left: -20vh;
+  margin-right: 20vh;
+  }
+.divvv2{
+    margin-left: 20vh;
+    margin-right: -20vh;
+    display: block;
+}
+
+  
+  /* Add hover effect to line-by-line elements */
+  .line-by-line:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Style the Upload button */
+  .divvv2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    
+  }
+  
+  .divvv2 button:hover {
+    background-color: #0056b3;
+  }
+  

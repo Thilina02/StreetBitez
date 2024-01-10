@@ -1,0 +1,59 @@
+.dihan-new-item-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dihan-new-item-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dihan-new-item-form-container .form-group {
+  margin-bottom: 15px;
+}
+
+.dihan-new-item-form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.dihan-new-item-form-container select,
+.dihan-new-item-form-container input,
+.dihan-new-item-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dihan-new-item-form-container button[type="submit"],
+.dihan-new-item-form-container button[type="cancel"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.dihan-new-item-form-container button[type="cancel"] {
+  background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+  .dihan-new-item-form-container input[type="text"],
+  .dihan-new-item-form-container input[type="number"],
+  .dihan-new-item-form-container select,
+  .dihan-new-item-form-container textarea {
+    font-size: 14px;
+  }
+}

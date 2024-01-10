@@ -1,0 +1,71 @@
+/* StallLogin.css */
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color for the entire page */
+  }
+  
+  .bgs-image {
+    /* Add background image styling if needed */
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1; /* Let the image take up 50% of the container */
+    height: 70%; /* Ensure the image and form have the same height */
+    width: 40%;
+    padding: 65px;
+
+  }
+  
+  .contentL {
+    background-color: #fff; /* Background color for the login form */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 65px;
+    width: 700px; /* Adjust the width as needed */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; /* Title color */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Input border color */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  /* Add styles for the register and forgot password links if needed */
+  .register-link,
+  .forgot-password-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Add additional styles as needed to customize the page further */
+  

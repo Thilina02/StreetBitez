@@ -1,0 +1,33 @@
+/* StallOwnerDashboard.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .stall-logo {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+  }
+  
+  .stall-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .stall-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .add-items {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+  }
+  
+  /* Add your item form styles here */
+  

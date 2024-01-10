@@ -1,0 +1,51 @@
+/* Container for the entire Customer Admin page */
+.customer-admin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for each admin box */
+.admin-box {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Styling for the Customer List box */
+.customer-list-box {
+  background-color: #f0f0f0;
+}
+
+/* Styling for the Feedbacks box */
+.feedbacks-box {
+  background-color: #e0e0e0;
+}
+
+/* Styling for the Support box */
+.support-box {
+  background-color: #d0d0d0;
+}
+
+/* Styling for the heading within each admin box */
+.admin-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px; /* Adjust as needed for spacing between heading and content */
+}
+
+/* Styling for the links within each admin box */
+.admin-box a {
+  text-decoration: right;
+  color: #007BFF; /* Change the link color as desired */
+  font-weight: bold;
+}
+
+/* Hover effect for links within admin boxes */
+.admin-box a:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Change the hover color as desired */
+}

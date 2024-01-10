@@ -1,0 +1,20 @@
+.succpay{
+    width: 50vh;
+    margin-left: -8vh;
+    margin-top: -50vh;
+}
+.expenseAndInc{
+    width: 50vh;
+    margin-left: 1vh;
+    margin-right: 5vh;
+    margin-top: -50vh;
+}
+
+.imgSvg{
+    background-size: cover;
+    width: 100vh;
+}
+.adminP{
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

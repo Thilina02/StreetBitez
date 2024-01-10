@@ -1,0 +1,55 @@
+.btn-primary {
+    background-color: #1289eb;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    margin-left: 50px;
+  }
+
+  .container-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .externalBtn{
+    width: 10vh;
+    height: 5vh;
+  }
+  .fetchedTable{
+    width: 40vh;
+    margin-top: 10vh;
+    height: 50vh;
+    margin-left: -100vh;
+  }
+  .formDetailll{
+    width: 80vh;
+  }
+  .cHead{
+    margin-left: 50vh;
+    font-style: italic;
+    font-size: 8vh;
+    width: 50vh;
+  }
+.insertButt{
+  margin-left: 70vh;
+  width: auto;
+}
+.cardDetaaaa{
+  margin-left: 90vh;
+  margin-top: -30vh;
+
+  width: 80vh;
+}
+.fetchedTable{
+  width: 80vh;
+    margin-top: 3vh;
+    height: 50vh;
+    margin-left: 20vh;
+
+}
