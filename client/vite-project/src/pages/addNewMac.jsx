@@ -10,7 +10,7 @@ export default function NewItemForm() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
 
-    
+  
     itemcode: '',
     name: '',
     description: '',
