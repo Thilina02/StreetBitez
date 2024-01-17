@@ -18,7 +18,7 @@ router.use(
 
 router.get('/',test)
 router.post('/register',registerUser)
-router .post('/login',loginUser)
+router.post('/login',loginUser)
 router.get('/profile', getProfile)
 router.put('/usersB/:id', updateUser);
 router.delete('/usersD/:id', deleteUser);
