@@ -1,11 +1,6 @@
 const User =require('../models/user');
 const Feedback = require('../models/feedback');
 const Support = require('../models/support');
-
-
-
-
-
 const {hashPassword,comparePassword}=require('../helpers/auth')
 const jwt = require('jsonwebtoken');
 
