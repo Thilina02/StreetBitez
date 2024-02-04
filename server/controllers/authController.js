@@ -45,12 +45,6 @@ if(!phonenumber ||phonenumber.length<10){
       error:'phone Number required 10 numbers'
   })
 };
-  if(!password || password.length < 6){
-      return res.json({
-          error:'password is requed and shoul be 6 charecters! '
-      })
-
-  } ; 
 
   if(!securityQuestion){
     return res.json({
