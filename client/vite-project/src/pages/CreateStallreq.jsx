@@ -50,7 +50,7 @@ function CreateStallreq() {
     if (Object.keys(validationErrors).length === 0) {
       // If there are no validation errors, submit the form
       axios
-        .post('./stall/stallreq', {
+        .post('http://localhost:8000/stall/stallreq', {
           sName,
           type,
           fName,
